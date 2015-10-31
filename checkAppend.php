@@ -21,14 +21,8 @@
 </head>
 <body>
 
-<p>This is a paragraph.</p>
-<p>This is another paragraph.</p>
+<p>Test of check and uncheck value add and remove.</p>
 
-<ol>
-  <li>List item 1</li>
-  <li>List item 2</li>
-  <li>List item 3</li>
-</ol>
 <?php for ($i=0; $i <4 ; $i++) :?>
     <input type="checkbox" class="test" data-id ="<?php echo $i+1; ?>"  data-type="NO <?php echo $i+1; ?>"/> Check me </br>
 <?php endfor; ?>
